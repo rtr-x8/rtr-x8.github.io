@@ -8,8 +8,6 @@
     <meta name="description" content="Ryutaro Matsuoka's portfolio.">
     <meta name="keywords" content="">
     <!-- css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <!-- canonical-->
     <link rel="canonical" href="https://ryutaromatsuoka.com/">
     <!-- SNS-->
@@ -50,9 +48,8 @@
 </head>
 <body>
     <div class="container">
-        <header class="row">
-            <p class="columns three"> rtr-x8</p>
-            <p class="columns three u-pull-right"></p>
+        <header>
+            <p>rtr-x8</p>
         </header>
         <main>
             <section>
@@ -69,10 +66,10 @@
                             <th>2016/03</th>
                             <td>関西大学 総合情報学部 総合情報学科 卒業</td>
                         </tr><tr>
-                            <th>2017/04</th>
+                            <th>2016/04</th>
                             <td>京都のweb制作会社にてマークアップエンジニア兼社内情シスとして入社</td>
                         </tr><tr>
-                            <th>2018/12</th>
+                            <th>2017/12</th>
                             <td>アプリ開発部署へ異動。バックエンド、フロントエンド、サーバーまで扱う</td>
                         </tr>
                     </tbody></table>
@@ -126,7 +123,17 @@
                     <h2>やりたいこと</h2>
                     <ul>
                         <li>様々な知識と技術を獲得し続けること、およびそれらを関連させること</li>
-                        <li>サーバーサイドや、インフラ周りなどの知識を獲得すること</li>   
+                        <li>人が使うサービスやモノ（自分も含めて）の開発、運用に携わっていきたい</li>   
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>SNS</h2>
+                    <ul class="inline-list">
+                        <li><a href="https://rtr-x8.com" target="_blank">blog</a></li>
+                        <li><a href="https://twitter.com/rtr_x8" target="_blank">twitter</a></li>
+                        <li><a href="https://github.com/rtr-x8" target="_blank">Github</a></li>
+                        <li><a href="https://www.wantedly.com/users/6901082" target="_blank">Wantedly</a></li>
                     </ul>
                 </section>
             </section>
@@ -135,8 +142,15 @@
     </div>
 </body>
 <style>
-    .text-right {text-align: right;}
-    .inline-list li {display: inline-block;}
-    .inline-list li + li:before {content: ',';display: inherit;margin-right: .3em;}
+body {margin: 0;font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Yu gothic",YuGothic,serif,Meiryo;}
+table {border-collapse: collapse;}
+tr + tr {border-top: 1px solid  #ddd;}
+th,td {vertical-align: top;padding: .5em;}
+.container {padding: 10px;max-width: 600px;margin: 0 auto;}
+.text-right {text-align: right;}
+.inline-list {padding-left: 1.5em;}
+.inline-list li {display: inline-block;}
+.inline-list li + li:before {content: ',';display: inherit;margin-right: .3em;}
+a {display: inline-block;padding: 0 .3em;text-decoration: none;}
 </style>
 </html>
