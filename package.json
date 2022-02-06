@@ -1,0 +1,17 @@
+{
+  "name": "rtr-x8.github.io",
+  "version": "1.0.0",
+  "description": "The note of rtr-x8",
+  "main": "index.js",
+  "repository": "https://github.com/rtr-x8/rtr-x8.github.io.git",
+  "author": "rtr-x8",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
