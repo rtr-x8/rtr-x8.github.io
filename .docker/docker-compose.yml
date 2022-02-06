@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vuepress:
+    build:
+      context: vuepress
+    container_name: vuepress
+    tty: true
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../:/app:delegated
