@@ -1,4 +1,4 @@
-FROM node:13.12-alpine
+FROM node:14.17-alpine
 ENV NODE_PATH /opt/node_modules
 
 RUN apk update && apk add git
