@@ -61,6 +61,21 @@ module.exports = {
                 canonical_base: productionUrl
             }
         ],
-        ['@vuepress/nprogress']
+        ['@vuepress/nprogress'],
+        ['@vuepress/blog', {
+            directories: [
+                {
+                    id: 'post',
+                    dirname: '_posts',
+                    path: '/',
+                    pagination: {
+                        lengthPerPage: 20,
+                    },
+                }
+            ],
+            sitemap: {
+                hostname: productionUrl
+            },
+        }]
     ],
 };
