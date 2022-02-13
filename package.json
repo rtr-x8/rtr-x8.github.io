@@ -8,6 +8,8 @@
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/plugin-nprogress": "^1.9.7",
     "vuepress": "^1.9.7"
   },
   "scripts": {
